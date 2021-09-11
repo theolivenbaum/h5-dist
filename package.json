@@ -1,6 +1,6 @@
 {
   "name": "@h5-js/h5",
-  "version": "0.0.1",
+  "version": "0.0.18589",
   "description": "Base library used by the C# to JavaScript compiler 🚀",
   "main": "h5.js",
   "scripts": {
