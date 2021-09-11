@@ -37,6 +37,7 @@ steps:
       xcopy ..\H5.Dist\bin\Release\netstandard2.0\h5\h5.meta.js
       popd
       echo "login to npm"
+      npm install
       npm set //registry.npmjs.org/:_authToken $(NPM_TOKEN)
       echo "publishing package"
       npm publish --access public --verbose
