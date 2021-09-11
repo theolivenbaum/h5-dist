@@ -1,0 +1,30 @@
+{
+  "name": "@h5-js/h5",
+  "version": "0.0.1",
+  "description": "Base library used by the C# to JavaScript compiler 🚀",
+  "main": "h5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theolivenbaum/h5-dist.git"
+  },
+  "keywords": [
+    "javascript",
+    "csharp",
+    "compiler",
+    "dotnet",
+    "netcore",
+    "javascript-compiler",
+    "dotnet-core",
+    "webdevelopment"
+  ],
+  "files": [ "dist/*" ],
+  "author": "Rafael Oliveira, Object.NET, Inc.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/theolivenbaum/h5/issues"
+  },
+  "homepage": "https://h5.rocks"
+}
