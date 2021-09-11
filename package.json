@@ -1,11 +1,8 @@
 {
   "name": "@h5.rocks/h5",
-  "version": "0.0.18589",
-  "description": "Base library used by the C# to JavaScript compiler 🚀",
+  "version": "0.0.21310",
+  "description": "Base library used by the C# to JavaScript compiler 🚀. This package is only meant to be used by .NET projects the h5 compiler.",
   "main": "h5.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/theolivenbaum/h5.git"
@@ -14,15 +11,11 @@
     "javascript",
     "csharp",
     "compiler",
-    "dotnet",
-    "netcore",
     "javascript-compiler",
-    "dotnet-core",
+    "dotnet",
     "webdevelopment"
   ],
-  "files": [
-    "dist/*"
-  ],
+  "files": [ "dist/*" ],
   "author": "Rafael Oliveira, Object.NET, Inc.",
   "license": "Apache-2.0",
   "bugs": {
