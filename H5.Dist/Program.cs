@@ -5,6 +5,7 @@ using static H5.Core.es5;
 using static H5.Core.dom;
 using Tesserae;
 using static Tesserae.UI;
+using Newtonsoft.Json;
 
 namespace H5.Dist
 {
@@ -15,6 +16,8 @@ namespace H5.Dist
             var hello = TextBlock("Hello world!");
 
             document.body.appendChild(hello.Render());
+
+            var json = JsonConvert.SerializeObject(new { ThisIs = "a test" } );
         }
     }
 }

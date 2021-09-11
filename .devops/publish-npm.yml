@@ -35,8 +35,10 @@ steps:
       xcopy ..\H5.Dist\bin\Release\netstandard2.0\h5\h5.min.js
       xcopy ..\H5.Dist\bin\Release\netstandard2.0\h5\h5.js
       xcopy ..\H5.Dist\bin\Release\netstandard2.0\h5\h5.meta.js
-      popd
+      xcopy ..\H5.Dist\bin\Release\netstandard2.0\h5\newtonsoft.json.js
+      xcopy ..\H5.Dist\bin\Release\netstandard2.0\h5\newtonsoft.json.min.js
       dir /s
+      popd
 
 - task: Npm@1
   inputs:
