@@ -36,5 +36,5 @@ steps:
       xcopy ..\H5.Dist\bin\Release\netstandard2.0\h5\h5.js
       xcopy ..\H5.Dist\bin\Release\netstandard2.0\h5\h5.meta.js
       popd
-      npm set //registry.npmjs.org/:_authToken $(NPM_TOKEN)
-      npm publish --access public
+      npm set //registry.npmjs.org/:_authToken $(NPM_TOKEN) 
+      npm publish --access public --verbose
