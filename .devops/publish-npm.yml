@@ -6,6 +6,20 @@ pool:
 
 steps:
 
+- task: NuGetToolInstaller@1
+
+- task: UseDotNet@2
+  displayName: 'Use .NET Core sdk 5.0'
+  inputs:
+    packageType: sdk
+    version: 5.0.203
+    installationPath: $(Agent.ToolsDirectory)\dotnet
+
+- task: CmdLine@2
+  displayName: 'Install h5 compiler'
+  inputs:
+    script: 'dotnet tool install --global h5-compiler'
+
 - script: |
     pushd H5.Dist
     dotnet restore
