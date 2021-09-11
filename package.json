@@ -1,5 +1,5 @@
 {
-  "name": "@h5-js/h5",
+  "name": "@h5.rocks/h5",
   "version": "0.0.18589",
   "description": "Base library used by the C# to JavaScript compiler 🚀",
   "main": "h5.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theolivenbaum/h5-dist.git"
+    "url": "git+https://github.com/theolivenbaum/h5.git"
   },
   "keywords": [
     "javascript",
